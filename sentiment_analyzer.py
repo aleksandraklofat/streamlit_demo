@@ -28,7 +28,7 @@ with b:
 # Loading dataset
 @st.experimental_memo
 def get_data() -> pd.DataFrame:
-    return pd.read_csv("sentiment_elon_demo.csv")
+    return pd.read_csv("sentiment_elon_demo1.csv")
 
 sentiment = get_data()
 
@@ -57,9 +57,10 @@ st.markdown("### Sentiment Wordclouds: Top Words")
 def get_data() -> pd.DataFrame:
     return pd.read_csv("text_demo.csv")
 
-tweets = get_data()
+df = get_data()
 
 # Visualisation
+tweets = df['Text']
 words_list = [word for line in tweets for word in line.split()]
 word_counts = Counter(words_list).most_common(50)
 words_df = pd.DataFrame(word_counts)
