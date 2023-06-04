@@ -6,3 +6,9 @@ This repository demonstrates a simple Streamlit App with Natural Language Proces
 ## Requirements
 - Python
 - Streamlit
+## Documents
+### Data for nlp
+ - text_demo.csv
+ - sentiment_elon_demo1.csv
+### Logos and Screenshots
+### sentiment_analyzer.py (actual app)
