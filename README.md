@@ -1,7 +1,12 @@
 # Streamlit Demo
 
-Twitter Sentiment Analyzer as Streamlit Demo
-This repository demonstrates a simple Streamlit App with Natural Language Processing Application.
+Twitter Sentiment Analyzer as Streamlit Demo </br>
+This repository demonstrates a simple Streamlit App with Natural Language Processing Application.</br>
+
+Data for this app is already cleaned and prepared.
+In order tu use this code for your own app you will need to:
+1. clean your data
+2. apply some sentiment algorithm. 
 
 ## Requirements
 - Python
